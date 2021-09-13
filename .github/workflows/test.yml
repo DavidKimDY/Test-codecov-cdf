@@ -23,6 +23,7 @@ jobs:
         pip install coverage
         coverage run -m pytest
         coverage xml
+        echo CODECOV_TOKEN=50c7d9d7-d5c7-468c-b972-3f08f73a8f00
         ls
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v2
