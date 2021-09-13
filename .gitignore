@@ -1,0 +1,22 @@
+# folders
+.idea
+__pycache__
+.DS_Store
+.ipynb_checkpoints
+.vscode
+build/
+coredotfinance.egg-info/
+dist/
+!docs
+ipynb/
+htmlcov/
+
+# files
+*.ipynb
+*.pyc
+test.py
+*.log
+**/key.cfg
+test/apikey.txt
+.coverage
+*.swp
